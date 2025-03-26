@@ -19,7 +19,7 @@ Data-Warehouse-using-Python/
 │   │── main_dag.py                  # Main DAG orchestration script  
 
 Data Flow Overview
-![image]([https://github.com/user-attachments/assets/d86d805d-928a-4545-9e22-f417b825105a](https://github.com/takdirzd/basic-streaming/blob/main/basic-streaming.png))
+![image](https://github.com/takdirzd/basic-streaming/blob/main/basic-streaming.png)
 
 This diagram represents the ETL (Extract, Transform, Load) data pipeline using Apache Airflow for orchestrating data movement across different layers:
 
