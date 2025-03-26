@@ -28,4 +28,3 @@ This diagram represents the streaming data pipeline, where Apache Airflow orches
     - Data from Kafka is stored in Cassandra for further analytics and processing.
 
   
-DATA STREAMING.pdf for details.
