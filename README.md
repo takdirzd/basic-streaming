@@ -7,7 +7,7 @@ Streaming-Data-Pipeline/
 │── kafka-psql-csdr.py	# Python script file  
 
 Data Flow Overview
-![image](https://github.com/takdirzd/basic-streaming/blob/main/basic-streaming.png)
+![image](https://github.com/takdirzd/basic-streaming/blob/main/basic-streaming-flow.png)
 
 This diagram represents the streaming data pipeline, where Apache Airflow orchestrates the real-time data flow across different layers:  
 
