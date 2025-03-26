@@ -17,6 +17,14 @@ This diagram represents the ETL (Extract, Transform, Load) data pipeline using A
 
 + Validation & Backup - PostgreSQL
     - The fetched data is temporarily stored in PostgreSQL for validation.  
-    - PostgreSQL serves as a backup, and invalid data is not forwarded to Kafka.  
+    - PostgreSQL serves as a backup, and invalid data is not forwarded to Kafka.
+ 
++ Streaming - Apache Kafka
+    - Validated data is sent to Apache Kafka as a streaming event.
+    - Kafka acts as an intermediary before the data reaches the NoSQL system.
+
++ Storage - Apache Cassandra:
+    - Apache Cassandra is used as the NoSQL database for scalable storage.
+    - Data from Kafka is stored in Cassandra for further analytics and processing.
 
 DATA STREAMING.pdf for details.
