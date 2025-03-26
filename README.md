@@ -3,8 +3,8 @@ Streaming Data Pipeline using RandomUser API, Kafka, PostgreSQL, and Cassandra
 This project builds a streaming data pipeline with RandomUser API as the data source, PostgreSQL for temporary storage and validation, Apache Kafka for real-time data streaming, and Apache Cassandra as a scalable NoSQL database for final storage.  
   
 Streaming-Data-Pipeline/  
-│── venv/                           # Folder for virtual environment  
-│── kafka-psql-csdr.py               # Python script file  
+│── venv/	# Folder for virtual environment  
+│── kafka-psql-csdr.py	# Python script file  
 
 Data Flow Overview
 ![image](https://github.com/takdirzd/basic-streaming/blob/main/basic-streaming.png)
